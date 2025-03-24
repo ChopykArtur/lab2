@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalog - Game Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Game Catalog</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="catalog.html">Catalog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section>
+            <h2>Popular Genres</h2>
+            <ul class="genre-list">
+                <li>Action</li>
+                <li>Adventure</li>
+                <li>RPG</li>
+                <li>Strategy</li>
+            </ul>
+        </section>
+        
+        <section>
+            <h2>Discount Table</h2>
+            <table class="game-table">
+                <tr>
+                    <th rowspan="2">Game</th>
+                    <th rowspan="2">Image</th>
+                    <th colspan="3">Price Details</th>
+                </tr>
+                <tr>
+                    <th>Old Price</th>
+                    <th>Discount</th>
+                    <th>New Price</th>
+                </tr>
+                <tr>
+                    <td>Forza Horizon 5</td>
+                    <td><img src="forza.jpg" alt="Forza Horizon 5" class="game-icon"></td>
+                    <td class="sale"><s>$30</s></td>
+                    <td>-50%</td>
+                    <td>$15</td>
+                </tr>
+                <tr>
+                    <td>GTA5</td>
+                    <td><img src="GTA5.jpg" alt="GTA5" class="game-icon"></td>
+                    <td class="sale"><s>$7.50</s></td>
+                    <td>-45%</td>
+                    <td>$4</td>
+                </tr>
+                <tr>
+                    <td>Red Dead Redemption 2</td>
+                    <td><img src="rdr2.jpg" alt="Red Dead Redemption 2" class="game-icon"></td>
+                    <td class="sale"><s>$65</s></td>
+                    <td>-65%</td>
+                    <td>$20</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Game Store</p>
+    </footer>
+</body>
+</html>
